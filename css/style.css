@@ -1,0 +1,87 @@
+
+
+html{
+    height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(214,0,255,1) 91%);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+form {
+    
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 20%;
+    max-height: 60%;
+}
+
+
+.numb{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2em;
+    
+}
+
+.numb input {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    padding: 10px;
+    opacity: .6;
+    cursor: pointer;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 900;
+    font-size: large;
+    
+    
+    
+    
+}
+
+.numb input:hover {
+    background-color: rgb(95, 128, 235);
+    transition: ease .5s;
+    -webkit-box-shadow: 6px 10px 5px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 10px 5px -2px rgba(0,0,0,0.75);
+box-shadow: 6px 10px 5px -2px rgba(0,0,0,0.75);
+}
+
+
+textarea{
+    resize:none;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: end;
+    padding-top: 2px;
+    height: 30px;
+    letter-spacing: .2em;
+    width: 100%;
+}
+
+
+#calc{
+    width: 100%;
+}
+
+
+
